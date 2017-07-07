@@ -6,13 +6,13 @@
 
 ## Description
 
-_This project creates a form, using HTML, to gather information about a user who is considering taking a programming language at Epicodus.  The form asks several questions and based on the user's answer, the computer makes a suggestion of the track to pursue_
+_This project creates a form, using HTML, to gather information about a user who is considering taking a programming language course at Epicodus.  The form asks several questions and based on the user's answers, the computer makes a suggestion of the programming language track to pursue._
 
 ## How to use the application:
 
-* _Please click here https://kchamp45.github.io/tracks.git_
-* _Fill out the form_
-* _Click submit_
+1. Please click here https://kchamp45.github.io/tracks.git;
+2. Fill out the form;
+3. Click submit.
 
 ## Contact information:
 
@@ -26,4 +26,4 @@ _This application was created using HTML, CSS (including Bootstrap), and JavaScr
 
 *You may use this application under the MIT License.*
 
-Copyright (c) 2016 **_Kimberly Lu**
+Copyright (c) 2017 **_Kimberly Lu**
