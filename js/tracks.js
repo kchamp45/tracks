@@ -16,24 +16,23 @@ $(document).ready(function() {
       $("#CSS").hide();
       $("#default").hide();
 
-    } else if (purpose === "Business" || purpose === "Home") {
-      $("#Java").hide();
+    } else if ((exLevel === "Complete Beginner" && location === "West Coast") || purpose === "Home") {
       $("#Ruby").show();
+      $("#Java").hide();
       $("#CSS").hide();
       $("#default").hide();
 
-    } else if (exLevel === "Complete Beginner" && location === "West Coast" && purpose === "home" && reason === "It's Fun!") {
+    } else if ((exLevel === "Complete Beginner" && location === "MidWest") ||  reason === "It's Fun!") {
+      $("#CSS").show();
       $("#Java").hide();
       $("#Ruby").hide();
-      $("#CSS").show();
       $("#default").hide();
 
     } else {
+      $("#default").show();
       $("#Java").hide();
       $("#Ruby").hide();
       $("#CSS").hide();
-      $("#default").show();
-
     }
   });
 });
