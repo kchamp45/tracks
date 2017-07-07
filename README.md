@@ -20,7 +20,7 @@ _There are no known bugs at this time.  But should you encounter any bug or othe
 
 ## Technologies Used
 
-_This application was created using HTML, CSS (including Bootstrap), and JavaScript (including the latest version of JQuery._
+_This application was created using HTML, CSS (including Bootstrap), and JavaScript (including the latest version of JQuery)._
 
 ### License
 
