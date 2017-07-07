@@ -9,6 +9,7 @@ $(document).ready(function() {
     var purpose = $("input:radio[name=purpose]:checked").val();
     var reason = $("input:radio[name=reason]:checked").val();
     $("#thisName").text(name);
+    $("img").slideToggle();
 
     if ((exLevel === "Some computer knowledge" && location === "East Coast") || purpose === "business") {
       $(".intro").show();
