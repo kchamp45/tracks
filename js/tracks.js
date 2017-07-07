@@ -1,10 +1,39 @@
+
+
 $(document).ready(function() {
-  $("form#track").submit(function() {
+  $("form#tracks").submit(function(event) {
+    event.preventDefault();
     var name = $("input#person").val();
-    var experienceLevel = $("select#experience").val();
-    var location = $("select#location").val();
+    var exLevel = $("#experience").val();
+    var location = $("#location").val();
     var purpose = $("input:radio[name=purpose]:checked").val();
     var reason = $("input:radio[name=reason]:checked").val();
-    $(#name).text(name);
-  })
-})
+    $("#thisName").text(name);
+
+    if (exLevel === "Some computer knowledge" && location === "East Coast") {
+      $("#Java").show();
+      $("#Ruby").hide();
+      $("#CSS").hide();
+      $("#default").hide();
+
+    } else if (purpose === "Business" || purpose === "Home") {
+      $("#Java").hide();
+      $("#Ruby").show();
+      $("#CSS").hide();
+      $("#default").hide();
+
+    } else if (exLevel === "Complete Beginner" && location === "West Coast" && purpose === "home" && reason === "It's Fun!") {
+      $("#Java").hide();
+      $("#Ruby").hide();
+      $("#CSS").show();
+      $("#default").hide();
+
+    } else {
+      $("#Java").hide();
+      $("#Ruby").hide();
+      $("#CSS").hide();
+      $("#default").show();
+
+    }
+  });
+});

@@ -2,18 +2,13 @@
 body {
   background-color: tan;
   font-size: 20px;
+  ;
 }
- .center {
+.center {
    text-align: center;
+   color: red
  }
 
-.clickable {
-  cursor: pointer;
-  color: #0088cc;
-}
-.clickable:hover {
-  text-decoration: underline;
-}
-#Java, #Ruby, #CSS {
+#Java, #Ruby, #CSS, #default {
   display: none;
 }
