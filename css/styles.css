@@ -18,9 +18,11 @@ body {
 
  p a {
    color: blue;
-
+ }
+ .intro {
+   font-weight: bolder;
  }
 
-#Java, #Ruby, #CSS, #default {
+#Java, #Ruby, #CSS, #default, .intro {
   display: none;
 }

@@ -11,24 +11,28 @@ $(document).ready(function() {
     $("#thisName").text(name);
 
     if ((exLevel === "Some computer knowledge" && location === "East Coast") || purpose === "business") {
+      $(".intro").show();
       $("#Java").show();
       $("#Ruby").hide();
       $("#CSS").hide();
       $("#default").hide();
 
-    } else if ((exLevel === "Complete Beginner" && location === "West Coast") || purpose === "home") {
+    } else if ((exLevel === "Complete Beginner" && location === "West Coast") || reason === "useful") {
+      $(".intro").show();
       $("#Ruby").show();
       $("#Java").hide();
       $("#CSS").hide();
       $("#default").hide();
 
     } else if ((exLevel === "Complete Beginner" && location === "MidWest") ||  reason === "fun") {
+      $(".intro").show();
       $("#CSS").show();
       $("#Java").hide();
       $("#Ruby").hide();
       $("#default").hide();
 
     } else {
+      $(".intro").show();
       $("#default").show();
       $("#Java").hide();
       $("#Ruby").hide();
