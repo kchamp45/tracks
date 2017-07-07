@@ -10,7 +10,7 @@ _This project creates a form, using HTML, to gather information about a user who
 
 ## How to use the application:
 
-* _Please click on the link below_
+* _Please click here https://kchamp45.github.io/tracks.git_
 * _Fill out the form_
 * _Click submit_
 

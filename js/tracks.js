@@ -10,19 +10,19 @@ $(document).ready(function() {
     var reason = $("input:radio[name=reason]:checked").val();
     $("#thisName").text(name);
 
-    if (exLevel === "Some computer knowledge" && location === "East Coast") {
+    if ((exLevel === "Some computer knowledge" && location === "East Coast") || purpose === "business") {
       $("#Java").show();
       $("#Ruby").hide();
       $("#CSS").hide();
       $("#default").hide();
 
-    } else if ((exLevel === "Complete Beginner" && location === "West Coast") || purpose === "Home") {
+    } else if ((exLevel === "Complete Beginner" && location === "West Coast") || purpose === "home") {
       $("#Ruby").show();
       $("#Java").hide();
       $("#CSS").hide();
       $("#default").hide();
 
-    } else if ((exLevel === "Complete Beginner" && location === "MidWest") ||  reason === "It's Fun!") {
+    } else if ((exLevel === "Complete Beginner" && location === "MidWest") ||  reason === "fun") {
       $("#CSS").show();
       $("#Java").hide();
       $("#Ruby").hide();

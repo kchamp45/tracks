@@ -10,8 +10,12 @@
 
   <body>
     <h1 class="Jumbotron center">Epicodus Program Suggestions</h1>
+    <div>
+      <img src="img/computer.jpg" alt="Picture of a computer">
+    </div>
     <div class="container">
-      <p>Here at Epicodus, we have 3 programming language tracks for you to choose from.  To help you decide which programming language tracks to pursue at Epicodus, please answer the followng 5 questions in the form below.  We'll make a suggestion.</p>
+
+      <p>Here at Epicodus, we have 3 programming language tracks for you to choose from.  To help you decide which programming language tracks to pursue at Epicodus, please answer the followng 5 questions in the form below.  We'll make a suggestion.  If you want to learn more about our program, please <a href="https://epicodus.com">Click Here.</a></p>
 
       <form id="tracks">
         <div class="form-group">
@@ -42,43 +46,44 @@
           <label for="">Where do you plan to use the language?</label>
           <div class="radio">
             <label>
-              <input type="radio" name="purpose" value="home">
+            <input type="radio" name="purpose" value="home">
               Home
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="purpose" value="business">
+            <input type="radio" name="purpose" value="business">
               Business
           </div>
+        </div>
 
-          <div class="form-group">
-            <label for="">Why do you want to learn to code?</label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="reason" value="fun">
-                It's Fun!
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="reason" value="challenge">
-                I want to challenge myself!
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="reason" value="useful">
-                It's useful!
-            </div>
+        <div class="form-group">
+          <label for="">Why do you want to learn to code?</label>
+          <div class="radio">
+            <label>
+            <input type="radio" name="reason" value="fun">
+              It's Fun!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="reason" value="challenge">
+              I want to challenge myself!
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="reason" value="useful">
+              It's useful!
+          </div>
+        </div>
 
         <button type="submit" class="btn btn-success">Submit!</button>
-
       </form>
 
       <div class="panel panel-danger" id="Java">
         <p>Based on your <em>answers</em>, <span id="thisName"></span>, here's our suggestion:</p>
         <p>You should consider learning Java.  Java is a pretty complex language to learn.  Java is a widely used programming language expressly designed for use in the distributed environment of the internet.  It is the most popular programming language for Android smartphone applications and is among the most favored for edge device and internet of things development.</p>
-        <p>Android is a mobile operating system developed by the folks at Google. Android programs are written in Java and run through a Java Virtual Machine (JVM) that is optimized for mobile devices."</p>
+        <p>Android is a mobile operating system developed by the folks at Google. Android programs are written in Java and run through a Java Virtual Machine (JVM) that is optimized for mobile devices.</p>
       </div>
 
       <div class="panel panel-success" id="Ruby">
@@ -96,9 +101,9 @@
         <p>Based on your <em>answers</em>, <span id="thisName"></span>, here's our suggestion:
         </p>
         <p>
-        It is not important which programming language you choose to purse at Epicodus (or any other coding bootcamp). What is important is your desire to learn and motivation to succeed.  Once you learn one language, you can readily learn another language.  In the real world, you may have other past  experiences that fit your employer's need, but the employer uses a different programming language than the ones you're familiar with.  No worries!  At Epicodus, you also learn how to learn, making knowledge acquisition of another languange relatively easy.  Good luck!
+        It is not important which programming language you choose to purse at Epicodus (or any other coding bootcamp). What is important is your desire to learn and your motivation to succeed.  Once you learn one language, you can readily learn another language.  In the real world, you may have other past  experiences that fit your employer's needs, but the employer uses a different programming language than the ones you're familiar with.  No worries!  At Epicodus, you also learn how to learn, making knowledge acquisition of another languange relatively easy.  Good luck!
         </p>
-
+      </div>
     </div>
   </body>
 </html>
